@@ -38,6 +38,7 @@ public class Main {
 			System.out.println("Nessun riscontro");
 		}
 		System.out.println("");
+		System.out.println("sono la nuova versione");
 		System.out.println("Vuoi continuare? Y/N");
 		String scelta = tastiera.next();
 		if (scelta.equalsIgnoreCase("N"))continua=false;
