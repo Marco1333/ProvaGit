@@ -13,6 +13,7 @@ public class Main {
 	public static void main(String [] args) {
 		boolean continua= true;
 		Scanner tastiera = new Scanner(System.in);
+		System.out.println("ciao a tutti");
 		do {
 		Utente utente1 = new Utente("Marco","Pisilli","PSLM1245");
 		Utente utente2 = new Utente("Giuseppe","Verdi","VRDG629");
